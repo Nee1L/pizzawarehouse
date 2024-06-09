@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: admin
+    password: psw
+    url: jdbc:postgresql://localhost:7434/pizza-shop-warehouse
+    driverClassName: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgresPlusDialect
+        ddl-auto: validate
+        format_sql: true
+  liquibase:
+    change-log: classpath:db/changelog/changelog-pizza-warehouse.yml

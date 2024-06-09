@@ -1,0 +1,28 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_admin_table
+      author: mykytaK
+      changes:
+        - createTable:
+            tableName: MYADMIN
+            columns:
+              - column:
+                  name: ID
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: PK_USER
+              - column:
+                  name: PASSWORD
+                  type: VARCHAR(400)
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: USERNAME
+                  type: VARCHAR(40)
+                  constraints:
+                    unique: false
+                    nullable: false

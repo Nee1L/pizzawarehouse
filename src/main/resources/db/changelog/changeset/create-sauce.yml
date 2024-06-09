@@ -1,0 +1,46 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_sauce_table
+      author: mykytaK
+      changes:
+        - createTable:
+            tableName: SAUCE
+            columns:
+              - column:
+                  name: ID
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: PK_USER2
+              - column:
+                  name: NAME
+                  type: VARCHAR(40)
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: TYPE
+                  type: VARCHAR(40)
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: PRICE
+                  type: DOUBLE
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: QUANTITY
+                  type: INT
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: MEASURE
+                  type: VARCHAR(40)
+                  constraints:
+                    unique: false
+                    nullable: false
