@@ -13,8 +13,6 @@ public class SauceDto implements Product {
 
     private Price price;
 
-    private String type;
-
     private ProductInfoDto productInfoDto;
 
     @Override

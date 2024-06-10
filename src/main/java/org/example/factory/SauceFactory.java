@@ -29,14 +29,14 @@ public class SauceFactory {
         productInfoDto.setQuantity(sauce.getQuantity());
 
         return SauceDto.builder().id(sauce.getId()).
-                type(sauce.getType()).price(price).productInfoDto(productInfoDto).build();
+                price(price).productInfoDto(productInfoDto).build();
 
     }
 
     public Sauce fromDto(SauceDto sauceDto){
 
         return Sauce.builder().id(sauceDto.getId()).
-                name(sauceDto.getProductInfoDto().getName()).type(sauceDto.getType()).
+                name(sauceDto.getProductInfoDto().getName()).
                 cost(sauceDto.getPrice().getValue()).quantity(sauceDto.getProductInfoDto().getQuantity()).measure(sauceDto.getProductInfoDto().getMeasure()).build();
     }
 }

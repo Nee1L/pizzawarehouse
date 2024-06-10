@@ -13,16 +13,24 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class SupplierService {
+public class RegistrationService {
+
+    private final AdminRepository adminRepository;
+
+    private final AdminFactory adminFactory;
 
     private final SupplierRepository supplierRepository;
 
     private final SupplierFactory supplierFactory;
 
-    public SupplierDto addSupplier(SupplierDto supplierDto) {
+
+    public AdminDto signup(AdminDto adminDto) {
+        Admin admin = adminRepository.save(adminFactory.fromDto(adminDto));
+        return adminFactory.toDto(admin);
+    }
+
+    public SupplierDto registerSupplier(SupplierDto supplierDto) {
         Supplier supplier = supplierRepository.save(supplierFactory.fromDto(supplierDto));
         return supplierFactory.toDto(supplier);
     }
-
-
 }

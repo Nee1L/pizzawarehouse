@@ -1,10 +1,10 @@
 databaseChangeLog:
   - changeSet:
-      id: create_meat_table
+      id: create_pizza_table
       author: mykytaK
       changes:
         - createTable:
-            tableName: MEAT
+            tableName: PIZZA
             columns:
               - column:
                   name: ID
@@ -13,7 +13,7 @@ databaseChangeLog:
                   constraints:
                     nullable: false
                     primaryKey: true
-                    primaryKeyName: PK_MEAT
+                    primaryKeyName: PK_PIZZA
               - column:
                   name: NAME
                   type: VARCHAR(40)
@@ -21,25 +21,19 @@ databaseChangeLog:
                     unique: false
                     nullable: false
               - column:
-                  name: TYPE
-                  type: VARCHAR(40)
+                  name: DESCRIPTION
+                  type: VARCHAR(400)
                   constraints:
                     unique: false
                     nullable: false
               - column:
-                  name: PRICE
-                  type: DOUBLE
+                  name: PRODUCTID
+                  type: BIGINT
                   constraints:
                     unique: false
                     nullable: false
               - column:
-                  name: QUANTITY
-                  type: INT
-                  constraints:
-                    unique: false
-                    nullable: false
-              - column:
-                  name: MEASURE
+                  name: PRODUCTTYPE
                   type: VARCHAR(40)
                   constraints:
                     unique: false

@@ -4,15 +4,19 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 @Builder
-public class AdminDto {
+public class PizzaDto {
 
     private Long id;
 
-    private String username;
+    private Product product;
 
-    private String password;
+    private String name;
+
+    private String description;
 
 }

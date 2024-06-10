@@ -9,12 +9,12 @@ public class AdminFactory {
 
     public AdminDto toDto(Admin admin) {
         return AdminDto.builder().id(admin.getId()).
-                name(admin.getUsername()).password(admin.getPassword()).build();
+                username(admin.getUsername()).password(admin.getPassword()).build();
     }
 
     public Admin fromDto(AdminDto adminDto) {
         return Admin.builder().id(adminDto.getId()).
-                username(adminDto.getName()).password(adminDto.getPassword()).build();
+                username(adminDto.getUsername()).password(adminDto.getPassword()).build();
     }
 
 

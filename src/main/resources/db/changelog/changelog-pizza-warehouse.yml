@@ -7,3 +7,5 @@ databaseChangeLog:
       file: db/changelog/changeset/create-sauce.yml
   - include:
       file: db/changelog/changeset/create-supplier.yml
+  - include:
+      file: db/changelog/changeset/create-pizza.yml

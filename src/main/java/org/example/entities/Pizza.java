@@ -5,12 +5,12 @@ import lombok.*;
 
 @Entity
 @Builder
-@Table(name = "SAUCE")
+@Table(name = "PIZZA")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class Sauce {
+public class Pizza {
     @Id
     @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,13 +19,12 @@ public class Sauce {
     @Column(name = "NAME")
     private String name;
 
-    @Column(name = "PRICE")
-    private Double cost;
+    @Column(name = "DESCRIPTION")
+    private String description;
 
-    @Column(name = "QUANTITY")
-    private  Integer quantity;
+    @Column(name = "PRODUCTID")
+    private Long productId;
 
-    @Column(name = "MEASURE")
-    private String measure;
-
+    @Column(name = "PRODUCTTYPE")
+    private String productType;
 }
