@@ -1,0 +1,13 @@
+type Mutation {
+    updateProjectInfo(id: ID!, title: String, description: String): Project
+}
+
+type Query {
+    healthCheck: String
+}
+
+type Project {
+    id: ID
+    title: String
+    description: String
+}

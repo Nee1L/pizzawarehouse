@@ -1,1 +1,3 @@
 rootProject.name = 'pizzawarehouse'
+include("srp-user-ms")
+include("srp-common")

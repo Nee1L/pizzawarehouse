@@ -1,0 +1,30 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_project_attachment_table
+      author: aleksandrPob
+      changes:
+        - createTable:
+            tableName: PROJECT_ATTACHMENT
+            columns:
+              - column:
+                  name: ID
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: PK_PROJECT_ATTACHMENT
+              - column:
+                  name: IMG
+                  type: BYTEA
+                  constraints:
+                    unique: false
+                    nullable: true
+              - column:
+                  name: PROJECT_ID
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+                    unique: false
+                    foreignKeyName: FK_PROJECT_ATTACHMENT_PROJECT_ID
+                    references: PROJECT(ID)

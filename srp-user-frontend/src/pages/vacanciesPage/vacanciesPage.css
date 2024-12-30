@@ -1,0 +1,217 @@
+/* .filter-main {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 36px; 
+}
+
+
+.filter-main button:hover {
+  transform: scale(1.05);
+}
+
+.filter-time button {
+  width: 100px;
+  height: 44px;
+  padding: 10px 16px;
+  border-radius: 22px; 
+  border: 1px solid #DDDD;
+  background-color: #EFEFEF;
+  margin-right: 8px;
+  color: #000000;
+  font-weight: 400;
+}
+
+
+
+.filter-search input {
+  width: 416px;
+  height: 44px;
+  padding: 16px 26px;
+  gap: 14px;
+  border-radius: 51px;
+  border: 1px solid #DDDD;
+  background-color: #EFEFEF;
+  margin-right: 8px;
+
+}
+
+.filter-search button {
+  width: 100px; 
+  height: 44px; 
+  padding: 8px 16px; 
+  border-radius: 51px;
+  background-color: #40A6FF;
+  color: #FFF;
+  font-size: 16px; 
+  font-weight: 500; 
+  cursor: pointer;
+}
+
+.filter-sort button {
+  width: 120px;
+  height: 44px;
+  padding: 10px 16px;
+  border-radius: 22px; 
+  border: 1px solid #DDDDDD;
+  background-color: #EFEFEF; 
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 8px; 
+} */
+
+
+/* .view-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 36px 0;
+  position: relative;
+}
+
+.view-all::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 36px; 
+  right: 36px; 
+  height: 1px;
+  background-color: #DDDDDD;
+  z-index: 1;
+}
+
+.view-all button {
+  position: relative;
+  z-index: 2;
+  width: 150px;
+  height: 44px;
+  padding: 10px 30px;
+  border-radius: 51px;
+  background-color: #EFEFEF;
+  border: 1px solid #DDDDDD;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+} */
+
+
+
+.vacancies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 32px; 
+  }
+  
+  .vacancie-item {
+    width: calc(50% - 25px);
+    padding: 36px;
+  }
+  
+  .vacancie-logo {
+    width: 55px;
+    margin-left: -10px;
+    margin-bottom: 8px;
+    position: absolute;
+  }
+  
+  .vacancie-title-and-icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  
+  .vacancie-title-and-icon h2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  
+  .vacancie-header {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    margin-left: 50px;
+  }
+
+  .vacancie-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vacancie-info span, .vacancie-info p {
+    color: #AEAEAE;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+  }
+  
+  .vacancie-info p {
+    margin-top: 25px;
+    color: #000000;
+  }
+  
+  .vacancie-description p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+
+  }
+  
+  .vacancie-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+    .vacancie-icons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .vacancie-icons {
+    display: flex;
+    margin-top: 12px;
+    margin-right: 8px;
+  }
+
+  .vacancie-icons button {
+    width: 44px;
+    height: 44px;
+    padding: 9px 11.5px;
+    gap: 8px;
+    border-radius: 51px;
+    background: #EFEFEF;
+    cursor: pointer;
+  }
+
+  .button-see {
+    width: 117px;
+    height: 44px;
+    min-width: 100px;
+    padding: 10px 16px;
+    gap: 8px;
+    border-radius: 51px;
+    background: #EFEFEF;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .vacancie-item:hover{
+    background-color: #EFEFEF;
+  }
+  
+  .vacancie-icons button:hover, .vacancie-icons .button-see:hover {
+    background-color: #CFCFCF;
+  }
+

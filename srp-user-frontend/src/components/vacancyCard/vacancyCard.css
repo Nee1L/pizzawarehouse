@@ -1,0 +1,111 @@
+.vacancy-card {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 24px;
+  background-color: #f8f8f8;
+  width: 668px;
+}
+
+.vacancy-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.vacancy-card__header-left {
+  display: flex;
+  align-items: center;
+}
+
+.vacancy-card__logo {
+  border-radius: 20px;
+  width: 44px;
+  height: 44px;
+  margin-right: 8px;
+}
+
+.vacancy-card__department {
+  color: #888;
+  font-size: 12px;
+}
+
+.vacancy-card__description {
+  font-size: 12px;
+  color: #000;
+  margin: 12px 0;
+}
+
+.vacancy-card__title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  margin: 16px 0 12px 0;
+  line-height: 100%;
+}
+
+.vacancy-card__type {
+  font-size: 12px;
+  color: #888;
+}
+
+.vacancy-card__date {
+  font-size: 12px;
+  color: #000;
+}
+
+.vacancy-card__icons {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+}
+
+.vacancy-card__options-btn,
+.vacancy-card__favorite-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.button-box {
+  display: flex;
+  gap: 8px;
+}
+
+.vacancy-card-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #efefef;
+  border-radius: 51px;
+  width: 44px;
+  height: 44px;
+}
+
+.vacancy-card-button--see {
+  padding: 16.5px 24px;
+  width: 118px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.vacancy-card__company {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+.vacancy-card-button:hover {
+  background-color: #d4d2d2;
+}
+
+.vacancy-card:hover {
+  background-color: #efefef;
+}

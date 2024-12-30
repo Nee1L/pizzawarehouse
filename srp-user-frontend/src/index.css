@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: Bahnschrift;
+  src: url("../../сomponents/header/BAHNSCHRIFT\ 12.TTF");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+ol,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Bahnschrift;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f8f8f8;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 36px;
+}

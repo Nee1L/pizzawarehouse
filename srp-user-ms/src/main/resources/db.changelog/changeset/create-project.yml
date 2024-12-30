@@ -1,0 +1,52 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_project_table
+      author: aleksandrPob
+      changes:
+        - createTable:
+            tableName: PROJECT
+            columns:
+              - column:
+                  name: ID
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: PK_PROJECT
+              - column:
+                  name: USER_ID
+                  type: VARCHAR(255)
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: TITLE
+                  type: VARCHAR(255)
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: DESCRIPTION
+                  type: VARCHAR(255)
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: CREATE_DATE
+                  type: TIMESTAMPTZ
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: VIEWS
+                  type: INTEGER
+                  constraints:
+                    unique: false
+                    nullable: false
+              - column:
+                  name: LIKES
+                  type: INTEGER
+                  constraints:
+                    unique: false
+                    nullable: false

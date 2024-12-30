@@ -1,0 +1,178 @@
+[
+    {
+        "id": 0,
+        "type": "coursesNew",
+        "img": "../src/img/coursesNew.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 1,
+        "type": "coursesNew",
+        "img": "../src/img/coursesNew.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "4$"
+      },
+      {
+        "id": 2,
+        "type": "coursesNew",
+        "img": "../src/img/coursesNew.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "4$"
+      },
+      {
+        "id": 3,
+        "type": "coursesNew",
+        "img": "../src/img/coursesNew.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 4,
+        "type": "video",
+        "img": "../src/img/videos.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 5,
+        "type": "video",
+        "img": "../src/img/videos.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 6,
+        "type": "video",
+        "img": "../src/img/videos.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "4$"
+      },
+      {
+        "id": 7,
+        "type": "video",
+        "img": "../src/img/videos.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "4$"
+      },
+      {
+        "id": 8,
+        "type": "video",
+        "img": "../src/img/videos.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 9,
+        "type": "video",
+        "img": "../src/img/videos.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 10,
+        "type": "courses",
+        "img": "../src/img/courses.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 11,
+        "type": "courses",
+        "img": "../src/img/courses.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 12,
+        "type": "courses",
+        "img": "../src/img/courses.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "4$"
+      },
+      {
+        "id": 13,
+        "type": "courses",
+        "img": "../src/img/courses.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 14,
+        "type": "courses",
+        "img": "../src/img/courses.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "49$"
+      },
+      {
+        "id": 15,
+        "type": "courses",
+        "img": "../src/img/courses.png",
+        "title": "UI/UX Design Bootcamp: Build Intuitive Interfaces",
+        "icon": "../src/img/icon/star.png",
+        "rate": "4.2",
+        "comments": "(11)",
+        "hours": "32.40 hours",
+        "price": "4$"
+      }
+]

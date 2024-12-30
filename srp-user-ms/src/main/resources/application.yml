@@ -1,0 +1,40 @@
+server:
+  port: 9071
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+  datasource:
+    username: ${SPRING_DATASOURCE_USERNAME:admin}
+    password: ${SPRING_DATASOURCE_PASSWORD:psw}
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:9001/user-ms}
+    driverClassName: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgresPlusDialect
+        ddl-auto: validate
+        format_sql: true
+  liquibase:
+    change-log: classpath:db.changelog/changelog-user.yml
+
+  application:
+    name: oauth2-resource-auth0
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          issuer-uri: ${JWT-ISSUER-URI:https://dev-2pm31xwa1qg5teo5.us.auth0.com/}
+#          jwk-set-uri: ${JWT-SET-URI:https://dev-2pm31xwa1qg5teo5.us.auth0.com/.well-known/jwks.json}
+#          jws-algorithms: RS256
+management-api-url: ${MANAGEMENT-API:https://dev-2pm31xwa1qg5teo5.us.auth0.com}
+management-api-token-request:
+  client-id: ${AUTH-CLIENT-ID:xjGBUysCWxGPohGYQeWLWEuW1vA6jxXL$}
+  client-secret: ${AUTH-CLIENT-SECRET:Yke34H9Kf6lIzBUXEZbU5BAgpCnzgQ3DgQmPGge82HbZDdHt0kZAz9YNkSL6fUIe}
+  audience: ${AUTH-CLIENT-AUDIENCE:https://dev-2pm31xwa1qg5teo5.us.auth0.com/api/v2/}
+  grant-type: client_credentials
+aws:
+  access:
+    key: ${AWS-ACCESS-KEY:key}
+  secret:
+    key: ${AWS-SECRET-KEY:key}

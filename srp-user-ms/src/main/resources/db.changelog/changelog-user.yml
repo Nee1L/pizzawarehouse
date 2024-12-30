@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db.changelog/changeset/create-education.yml
+  - include:
+      file: db.changelog/changeset/create-tag.yml
+  - include:
+      file: db.changelog/changeset/create-project.yml
+  - include:
+      file: db.changelog/changeset/create-project-tag-link.yml
+  - include:
+      file: db.changelog/changeset/create-project-attachment.yml

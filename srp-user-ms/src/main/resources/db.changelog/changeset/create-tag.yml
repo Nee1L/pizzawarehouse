@@ -1,0 +1,22 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_tag_table
+      author: aleksandrPob
+      changes:
+        - createTable:
+            tableName: TAG
+            columns:
+              - column:
+                  name: ID
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: PK_TAG
+              - column:
+                  name: NAME
+                  type: VARCHAR(100)
+                  constraints:
+                    unique: true
+                    nullable: true
