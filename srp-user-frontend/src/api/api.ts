@@ -20,6 +20,7 @@ export const getAllVacancies = createAsyncThunk<VacancyCard[]>(
   }
 );
 
+
 export const getVacancyById = createAsyncThunk<VacancyCard, string>(
   'vacancies/getById',
   async (id, { rejectWithValue }) => {
